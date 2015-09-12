@@ -14,6 +14,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'factory_girl_rails'
+  gem 'bootstrap-sass'
 end
 
 group :development do
