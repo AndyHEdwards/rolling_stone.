@@ -15,6 +15,7 @@ group :development, :test do
   gem 'capybara'
   gem 'factory_girl_rails'
   gem 'bootstrap-sass'
+  gem 'bcrypt'
 end
 
 group :development do
