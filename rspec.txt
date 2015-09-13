@@ -1,0 +1,45 @@
+
+UsersController
+  GET #new
+[32m    returns http success[0m
+
+StaticPagesHelper
+[33m  add some examples to (or delete) /Users/Andy/workspace/rolling_stones/spec/helpers/static_pages_helper_spec.rb (PENDING: Not yet implemented)[0m
+
+UsersHelper
+[33m  add some examples to (or delete) /Users/Andy/workspace/rolling_stones/spec/helpers/users_helper_spec.rb (PENDING: Not yet implemented)[0m
+
+User
+  Model
+[32m    should be valid[0m
+[32m    name should be present[0m
+[32m    email should be present[0m
+[32m    name should not be too long[0m
+[32m    email should not be too long[0m
+[32m    email validation should accept valid addresses[0m
+[32m    email validation should reject invalid addresses[0m
+[32m    email addresses should be unique[0m
+[32m    password should be present (nonblank)[0m
+[32m    password should have a minimum length[0m
+
+users/new.html.erb
+[33m  add some examples to (or delete) /Users/Andy/workspace/rolling_stones/spec/views/users/new.html.erb_spec.rb (PENDING: Not yet implemented)[0m
+
+Pending: (Failures listed here are expected and do not affect your suite's status)
+[33m
+  1) StaticPagesHelper add some examples to (or delete) /Users/Andy/workspace/rolling_stones/spec/helpers/static_pages_helper_spec.rb[0m
+     [36m# Not yet implemented[0m
+[36m     # ./spec/helpers/static_pages_helper_spec.rb:14
+[0m[33m
+  2) UsersHelper add some examples to (or delete) /Users/Andy/workspace/rolling_stones/spec/helpers/users_helper_spec.rb[0m
+     [36m# Not yet implemented[0m
+[36m     # ./spec/helpers/users_helper_spec.rb:14
+[0m[33m
+  3) users/new.html.erb add some examples to (or delete) /Users/Andy/workspace/rolling_stones/spec/views/users/new.html.erb_spec.rb[0m
+     [36m# Not yet implemented[0m
+[36m     # ./spec/views/users/new.html.erb_spec.rb:4
+[0m
+
+Finished in 0.11613 seconds (files took 2.16 seconds to load)
+[33m14 examples, 0 failures, 3 pending[0m
+
