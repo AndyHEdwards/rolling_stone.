@@ -12,9 +12,13 @@ require 'rails_helper'
       expect(page).to_not have_content("Invalid email/password combination")
     end
 
-    it "chanes drodown-links when logged in" do
+    it "chanes dropdown-links when logged in" do
       visit login_path
-      expect(page).has_css?('Login')
+      page.has_css?('Login')
+      fill_in('Email', :with => 'email@example.com')
+      fill_in('Password', :with => 'password')
+      click_button("Log in")
+      page.has_css?('Log out')
     end
   end
 
