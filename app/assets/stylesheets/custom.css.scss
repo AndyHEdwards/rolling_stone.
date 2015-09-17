@@ -13,8 +13,9 @@ $gray-medium-light: #eaeaea;
 
 /* universal */
 
-body {
-  padding-top: 60px;
+html,body {
+  height: 100%;
+  padding-top: 20px;
 }
 
 section {
@@ -25,11 +26,16 @@ textarea {
   resize: vertical;
 }
 
-.center {
+.jumbotron {
+  background-size: cover;
+  background-image: url("http://41.media.tumblr.com/d2e63dbd141260ccc821c802d5f9bcfa/tumblr_nmkryuJd131slhhf0o1_1280.jpg");
   text-align: center;
+  height: 95%;
+
   h1 {
     margin-bottom: 10px;
   }
+
 }
 
 /* typography */
@@ -80,8 +86,11 @@ p {
 /* footer */
 
 footer {
-  margin-top: 45px;
-  padding-top: 5px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-right: 2%;
+  padding-left: 2%;
   border-top: 1px solid $gray-medium-light;
   color: $gray-light;
   a {
