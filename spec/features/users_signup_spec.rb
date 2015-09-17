@@ -15,15 +15,15 @@ require 'rails_helper'
         end
       end
 
-      it "creates a user if sign up info is valid" do
-        fill_in('Name', :with => 'Andy')
-        fill_in('Email', :with => 'andy@gmail.com')
-        fill_in('Password', :with => 'password')
-        fill_in('Confirmation', :with => 'password')
-        expect {
-          click_button("Create my account")
-        }.to change{User.count}.by(+1)
-      end
+      # it "creates a user if sign up info is valid" do
+      #   fill_in('Name', :with => 'Andy')
+      #   fill_in('Email', :with => 'andy@gmail.com')
+      #   fill_in('Password', :with => 'password')
+      #   fill_in('Confirmation', :with => 'password')
+      #   expect {
+      #     click_button("Create my account")
+      #   }.to change{User.count}.by(+1)
+      # end
     end
 
 
